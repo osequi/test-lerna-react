@@ -1,14 +1,11 @@
 {
-  "name": "osequi-test-lerna-react-p1",
-  "version": "1.0.3",
-  "description": "test",
-  "keywords": [
-    "a"
-  ],
+  "name": "osequi-test-lerna-react-p2",
+  "version": "1.0.0",
+  "description": "> TODO: description",
   "author": "osequi <cs@osequi.com>",
   "homepage": "https://github.com/osequi/test-lerna-react#readme",
   "license": "ISC",
-  "main": "lib/p1.js",
+  "main": "lib/p2.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,9 +23,5 @@
   },
   "bugs": {
     "url": "https://github.com/osequi/test-lerna-react/issues"
-  },
-  "gitHead": "d5311e231ea2a6394ea9fdecc7be98fc3027867a",
-  "dependencies": {
-    "lodash": "^4.17.20"
   }
 }
