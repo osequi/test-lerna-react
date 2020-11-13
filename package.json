@@ -7,7 +7,6 @@
     "typescript": "^4.0.5"
   },
   "scripts": {
-    "tsc": "lerna run tsc",
-    "p": "lerna publish"
+    "tsc": "lerna run tsc"
   }
 }
