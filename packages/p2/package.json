@@ -23,5 +23,8 @@
   },
   "bugs": {
     "url": "https://github.com/osequi/test-lerna-react/issues"
+  },
+  "dependencies": {
+    "osequi-test-lerna-react-p1": "1.0.4"
   }
 }

@@ -20,4 +20,12 @@ Playin
 1. l add lodash --scope=osequi-test-lerna-react-p1
 2. lerna create p2
    - add package.json/scripts: tsc
-   -
+   - publish
+3. l add osequi-test-lerna-react-p1@1.0.4 --scope=osequi-test-lerna-react-p2
+4. import p1 from "osequi-test-lerna-react-p1";
+5. p2.name: "Zolika +" + p1.name,
+6. add jest
+   - yarn ts-jest config:init
+   - remove **tests** folders
+   - add p2.test.ts inside /src
+7.
