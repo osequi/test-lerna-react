@@ -41,3 +41,9 @@ Playin
 7. l add osequi-test-lerna-react-p4 --scope=osequi-test-lerna-react-p2
 8. y tsc
 9. all works fine!
+
+## Folders
+
+1. theme, hooks, components, apps
+2. l bootstrap
+3. y tsc

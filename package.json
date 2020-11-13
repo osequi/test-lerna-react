@@ -8,7 +8,8 @@
   },
   "scripts": {
     "tsc": "lerna run tsc",
-    "test": "yarn jest --watchAll"
+    "test": "yarn jest --watchAll",
+    "boot": "lerna bootstrap"
   },
   "dependencies": {
     "@types/jest": "^26.0.15",
