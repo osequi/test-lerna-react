@@ -1,7 +1,8 @@
-'use strict';
+import React from "react";
 
-module.exports = button;
+var Button = function Button() {
+  return /*#__PURE__*/React.createElement("button", null, "Nutton");
+};
 
-function button() {
-    // TODO
-}
+export default Button;
+//# sourceMappingURL=Button.js.map

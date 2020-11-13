@@ -55,7 +55,40 @@ Playin
 
 ## Components
 
+- https://dev.to/debojitroy/react-project-idea-to-production-part-two-setting-up-a-component-library-41fk
+- https://github.com/osequi/react-lerna
+
 1. l create Button
 2. l add react -D --scope=osequi-test-lerna-react-button, l add react-dom -D --scope=osequi-test-lerna-react-button, l add react -P --scope=osequi-test-lerna-react-button, l add react-dom -P --scope=osequi-test-lerna-react-button
 3. Button.tsx
 4. tsconfig.json : "jsx": "react", "esModuleInterop": true
+5. Button packages.json
+
+```
+"@babel/cli": "^7.12.1",
+...
+
+"build": "babel src --out-dir lib --copy-files --source-maps --extensions \".ts,.tsx,.js,.jsx,.mjs\""
+```
+
+6. Button .babelrc
+
+```
+{
+  "presets": [
+    "@babel/preset-typescript",
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "corejs": "3",
+        "modules": false
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
+```
+
+7. global package.json: "build": "lerna exec --parallel -- yarn build"
+8. Button.test.tsx

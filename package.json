@@ -12,7 +12,8 @@
   "scripts": {
     "tsc": "lerna exec --parallel -- tsc --watch",
     "test": "yarn jest --watchAll",
-    "boot": "lerna bootstrap"
+    "boot": "lerna bootstrap",
+    "build": "lerna exec --parallel -- yarn build"
   },
   "dependencies": {}
 }
