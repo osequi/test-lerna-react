@@ -29,8 +29,15 @@ Playin
    - remove **tests** folders
    - add p2.test.ts inside /src
 
-## Unpublished packages - don't work
+## Unpublished packages
 
 1. create p3
 2. l add osequi-test-lerna-react-p3 --scope=osequi-test-lerna-react-p2
-3. importing p3 into p2 will throw an error
+3. ~~importing p3 into p2 will throw an error~~ IT WAS A COPY/PASTE ERROR
+4. ~~even after publishing p3 p2 will throw an error: error TS2307: Cannot find module 'osequi-test-lerna-react-p3' or its corresponding type declarations.~~
+
+5. create p4
+6. y tsc
+7. l add osequi-test-lerna-react-p4 --scope=osequi-test-lerna-react-p2
+8. y tsc
+9. all works fine!
