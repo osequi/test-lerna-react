@@ -1,6 +1,6 @@
 {
   "name": "osequi-test-lerna-react-p2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "osequi <cs@osequi.com>",
   "homepage": "https://github.com/osequi/test-lerna-react#readme",
@@ -25,8 +25,8 @@
     "url": "https://github.com/osequi/test-lerna-react/issues"
   },
   "dependencies": {
-    "osequi-test-lerna-react-p1": "^1.0.5",
-    "osequi-test-lerna-react-p3": "^1.0.2",
-    "osequi-test-lerna-react-p4": "^1.0.0"
+    "osequi-test-lerna-react-p1": "^1.0.6",
+    "osequi-test-lerna-react-p3": "^1.0.3",
+    "osequi-test-lerna-react-p4": "^1.0.1"
   }
 }
