@@ -3,7 +3,7 @@ export type TP3 = {
 };
 
 const p3 = {
-  name: " xxx ",
+  name: " xxx vvv",
 };
 
 export default p3;

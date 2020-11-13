@@ -47,3 +47,8 @@ Playin
 1. theme, hooks, components, apps
 2. l bootstrap
 3. y tsc
+
+## Watch
+
+1. "tsc": "lerna exec --parallel -- tsc --watch",
+2.

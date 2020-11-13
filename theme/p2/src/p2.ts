@@ -7,7 +7,7 @@ export type TP2 = {
 };
 
 const p2 = {
-  name: "Zolika +" + p1.name + p3.name + p4.name,
+  name: "Zolika xxx es" + p1.name + p3.name + p4.name,
 };
 
 export default p2;
