@@ -1,5 +1,5 @@
 {
-  "name": "p1",
+  "name": "osequi-test-lerna-react-p1",
   "version": "1.0.2",
   "description": "test",
   "keywords": [
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/osequi/test-lerna-react/issues"
   },
-  "gitHead": "74416db0e50a6c399285f36b8a786cf65f1d4b51"
+  "gitHead": "d5311e231ea2a6394ea9fdecc7be98fc3027867a"
 }
