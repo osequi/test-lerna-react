@@ -52,3 +52,10 @@ Playin
 
 1. "tsc": "lerna exec --parallel -- tsc --watch",
 2.
+
+## Components
+
+1. l create Button
+2. l add react -D --scope=osequi-test-lerna-react-button, l add react-dom -D --scope=osequi-test-lerna-react-button, l add react -P --scope=osequi-test-lerna-react-button, l add react-dom -P --scope=osequi-test-lerna-react-button
+3. Button.tsx
+4. tsconfig.json : "jsx": "react", "esModuleInterop": true

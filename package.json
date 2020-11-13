@@ -3,21 +3,16 @@
   "private": false,
   "devDependencies": {
     "@types/node": "^14.14.7",
-    "concurrently": "^5.3.0",
-    "cross-env": "^7.0.2",
     "lerna": "^3.22.1",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4"
   },
   "scripts": {
     "tsc": "lerna exec --parallel -- tsc --watch",
     "test": "yarn jest --watchAll",
-    "boot": "lerna bootstrap",
-    "build": "cross-env NODE_ENV=production tsc -p tsconfig.json"
+    "boot": "lerna bootstrap"
   },
-  "dependencies": {
-    "@types/jest": "^26.0.15",
-    "jest": "^26.6.3",
-    "ts-jest": "^26.4.4"
-  }
+  "dependencies": {}
 }

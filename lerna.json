@@ -1,5 +1,5 @@
 {
-  "packages": ["theme/*", "hooks/*", "componnets/*", "apps/*"],
+  "packages": ["theme/*", "hooks/*", "components/*", "apps/*"],
   "version": "independent",
   "npmClient": "yarn"
 }
