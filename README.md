@@ -92,3 +92,5 @@ Playin
 
 7. global package.json: "build": "lerna exec --parallel -- yarn build"
 8. Button.test.tsx
+
+## App

@@ -20,7 +20,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "tsc": "tsc",
-    "build": "babel src --out-dir lib --copy-files --source-maps --extensions \".ts,.tsx,.js,.jsx,.mjs\""
+    "transp": "babel src --out-dir lib --copy-files --source-maps --extensions \".ts,.tsx,.js,.jsx,.mjs\""
   },
   "bugs": {
     "url": "https://github.com/osequi/test-lerna-react/issues"

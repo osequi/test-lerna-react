@@ -1,7 +1,7 @@
 import React from "react";
 
 var Button = function Button() {
-  return /*#__PURE__*/React.createElement("button", null, "Nutton");
+  return /*#__PURE__*/React.createElement("button", null, "Nuttonski");
 };
 
 export default Button;

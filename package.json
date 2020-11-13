@@ -11,9 +11,9 @@
   },
   "scripts": {
     "tsc": "lerna exec --parallel -- tsc --watch",
+    "transp": "lerna exec --parallel --scope=osequi-test-lerna-react-button -- yarn transp",
     "test": "yarn jest --watchAll",
-    "boot": "lerna bootstrap",
-    "build": "lerna exec --parallel -- yarn build"
+    "boot": "lerna bootstrap"
   },
   "dependencies": {}
 }
