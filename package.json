@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@types/node": "^14.14.7",
     "lerna": "^3.22.1",

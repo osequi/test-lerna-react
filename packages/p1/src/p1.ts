@@ -3,7 +3,7 @@ export type TP1 = {
 };
 
 const p1 = {
-  name: "alika",
+  name: "alika ha",
 };
 
 export default p1;
