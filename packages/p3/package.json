@@ -1,0 +1,27 @@
+{
+  "name": "osequi-test-lerna-react-p3",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "osequi <cs@osequi.com>",
+  "homepage": "https://github.com/osequi/test-lerna-react#readme",
+  "license": "ISC",
+  "main": "lib/p2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osequi/test-lerna-react.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/osequi/test-lerna-react/issues"
+  }
+}
