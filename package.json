@@ -13,7 +13,8 @@
     "tsc": "lerna exec --parallel -- tsc --watch",
     "transp": "lerna exec --parallel --scope=osequi-test-lerna-react-button -- yarn transp",
     "test": "yarn jest --watchAll",
-    "boot": "lerna bootstrap"
+    "boot": "lerna bootstrap",
+    "transp2": "lerna exec --parallel --scope=osequi-test-lerna-react-button -- yarn transp2"
   },
   "dependencies": {}
 }

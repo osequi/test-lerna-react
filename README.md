@@ -55,6 +55,7 @@ Playin
 
 ## Components
 
+- https://blog.logrocket.com/the-complete-guide-to-publishing-a-react-package-to-npm/
 - https://dev.to/debojitroy/react-project-idea-to-production-part-two-setting-up-a-component-library-41fk
 - https://github.com/osequi/react-lerna
 
